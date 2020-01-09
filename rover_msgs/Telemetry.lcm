@@ -1,0 +1,11 @@
+package rover_msgs;
+
+struct Telemetry {
+    int32_t ID;
+    int32_t ENCODER;
+    int32_t ISENA;
+    int32_t ISENB;
+    int32_t ISENC;
+    float VELOCITY;
+    int32_t SWITCH;
+}
